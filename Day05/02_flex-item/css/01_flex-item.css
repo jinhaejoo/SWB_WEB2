@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    border: 3px dashed orange
+}
+
+.flex-container {
+    display: flex;
+    border: 1px solid lightcoral
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    background-color: cornflowerblue;
+    color: white;
+    box-sizing: border-box;
+}
+
+.order-1 { order: -1; }
+.order1 { order: 1; }
+.order2 { order: 2; }
+.order3 { order: 3; }
+.order4 { order: 4; }
