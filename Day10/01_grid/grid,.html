@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
-    <div class="container">
+    < class="container">
         
         <h2>grid default</h2>
         <div class="grid-container">
@@ -214,7 +214,320 @@
              <div class="item">9</div>
          </div>
 
+         <h2>grid-auto-rows: 300px;</h2>
+         <div class="grid-container rows-repeat columns-repeat auto rows">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+             <div class="item">5</div>
+             <div class="item">6</div>
+             <div class="item">7</div>
+             <div class="item">8</div>
+             <div class="item">9</div>
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+         </div>
+
+         <h2>grid-auto-columns: 300px;</h2>
+         <div class="grid-container rows-repeat columns-repeat auto rows">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+             <div class="item">5</div>
+             <div class="item">6</div>
+             <div class="item">7</div>
+             <div class="item">8</div>
+             <div class="item">9</div>
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>       
+         </div>
+
+         <h2>grid-auto-flow: row;</h2>
+         <div class="grid-container rows-repeat columns-repeat auto-flow-row">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+             <div class="item">5</div>
+             <div class="item">6</div>
+             <div class="item">7</div>
+             <div class="item">8</div>
+             <div class="item">9</div>
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>     
+         </div>
         
+         <h2>grid-auto-flow: column;</h2>
+         <div class="grid-container rows-repeat columns-repeat auto-flow-column">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+             <div class="item">5</div>
+             <div class="item">6</div>
+             <div class="item">7</div>
+             <div class="item">8</div>
+             <div class="item">9</div>
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>             
+             <div class="item auto-item">+</div>     
+         </div>
+
+         <h2>grid : grid-template-rows / grid-template-columns</h2>
+         <div class="grid-container grid-rows-columns">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+         </div>
+
+         <h2>grid : grid-template;</h2>
+         <div class="grid-container grid-grid-template">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+             <div class="item">5</div>
+             <div class="item">6</div>
+             <div class="item">7</div>
+             <div class="item">8</div>
+             <div class="item">9</div>
+         </div>
+        
+         <h2>align-content : start;</h2>
+         <div class="grid-container rows-repeat columns-repeat align align-start">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+        </div>
+
+        <h2>align-content : center;</h2>
+         <div class="grid-container rows-repeat columns-repeat align align-center">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+        </div>
+
+        <h2>align-content : end;</h2>
+         <div class="grid-container rows-repeat columns-repeat align align-end">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+        </div>
+
+        <h2>align-content : space-between;</h2>
+        <div class="grid-container rows-repeat columns-repeat align align-space-between">
+           <div class="item">1</div>
+           <div class="item">2</div>
+           <div class="item">3</div>
+           <div class="item">4</div>
+           <div class="item">5</div>
+           <div class="item">6</div>
+           <div class="item">7</div>
+           <div class="item">8</div>
+           <div class="item">9</div>
+       </div>
+
+       <h2>align-content : space-around;</h2>
+       <div class="grid-container rows-repeat columns-repeat align align-space-around">
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+          <div class="item">5</div>
+          <div class="item">6</div>
+          <div class="item">7</div>
+          <div class="item">8</div>
+          <div class="item">9</div>
+      </div>
+
+
+     <h2>align-content : space-evenly;</h2>
+     <div class="grid-container rows-repeat columns-repeat align align-space-evenly">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">+</div>
+        <div class="item">+</div>
+        <div class="item">+</div>
+    </div>
+
+    <h2>align-content : stretch;</h2>
+     <div class="grid-container rows-repeat columns-repeat align align-stretch">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">stretch</div>
+        <div class="item">streychc</div>
+        <div class="item">strentch</div>
+    </div>
+
+    <h2>justify-content : start;</h2>
+    <div class="grid-container rows-repeat columns-repeat align align-start">
+       <div class="item">1</div>
+       <div class="item">2</div>
+       <div class="item">3</div>
+       <div class="item">4</div>
+       <div class="item">5</div>
+       <div class="item">6</div>
+       <div class="item">7</div>
+       <div class="item">8</div>
+       <div class="item">9</div>
+   </div>
+
+   <h2>justify-content : center;</h2>
+    <div class="grid-container rows-repeat columns-repeat align align-center">
+       <div class="item">1</div>
+       <div class="item">2</div>
+       <div class="item">3</div>
+       <div class="item">4</div>
+       <div class="item">5</div>
+       <div class="item">6</div>
+       <div class="item">7</div>
+       <div class="item">8</div>
+       <div class="item">9</div>
+   </div>
+
+   <h2>justify-content : end;</h2>
+    <div class="grid-container rows-repeat columns-repeat align align-end">
+       <div class="item">1</div>
+       <div class="item">2</div>
+       <div class="item">3</div>
+       <div class="item">4</div>
+       <div class="item">5</div>
+       <div class="item">6</div>
+       <div class="item">7</div>
+       <div class="item">8</div>
+       <div class="item">9</div>
+   </div>
+
+   <h2>justify-content : space-between;</h2>
+   <div class="grid-container rows-repeat columns-repeat align align-space-between">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+  </div>
+
+  <h2>justify-content : space-around;</h2>
+  <div class="grid-container rows-repeat columns-repeat align align-space-around">
+     <div class="item">1</div>
+     <div class="item">2</div>
+     <div class="item">3</div>
+     <div class="item">4</div>
+     <div class="item">5</div>
+     <div class="item">6</div>
+     <div class="item">7</div>
+     <div class="item">8</div>
+     <div class="item">9</div>
+ </div>
+
+
+<h2>justify-content : space-evenly;</h2>
+<div class="grid-container rows-repeat columns-repeat align align-space-evenly">
+   <div class="item">1</div>
+   <div class="item">2</div>
+   <div class="item">3</div>
+   <div class="item">4</div>
+   <div class="item">5</div>
+   <div class="item">6</div>
+   <div class="item">7</div>
+   <div class="item">8</div>
+   <div class="item">9</div>
+   <div class="item">+</div>
+   <div class="item">+</div>
+   <div class="item">+</div>
+</div>
+
+<h2>justify-content : stretch;</h2>
+<div class="grid-container rows-repeat columns-repeat align align-stretch">
+   <div class="item">1</div>
+   <div class="item">2</div>
+   <div class="item">3</div>
+   <div class="item">4</div>
+   <div class="item">5</div>
+   <div class="item">6</div>
+   <div class="item">7</div>
+   <div class="item">8</div>
+   <div class="item">9</div>
+   <div class="item">stretch</div>
+   <div class="item">streychc</div>
+   <div class="item">strentch</div>
+</div>
+
+<h2>place-content: center center;</h2>
+<div class="grid-container rows-repeat columns-repeat place place-center-center"></div>
+   <div class="item">1</div>
+   <div class="item">2</div>
+   <div class="item">3</div>
+   <div class="item">4</div>
+   <div class="item">5</div>
+   <div class="item">6</div>
+   <div class="item">7</div>
+   <div class="item">8</div>
+   <div class="item">9</div>  
+
+<h2>align-items: start;</h2>
+<div class="grid-container rows-repeat columns-repeat align-items-start"></div>
+
+<h2>align-items: end;</h2>
+<div class="grid-container rows-repeat columns-repeat align-items-end"></div>
+
+<h2>align-items: center;</h2>
+<div class="grid-container rows-repeat columns-repeat align-items-center"></div>
+
+<h2>align-items: stretch;</h2>
+<div class="grid-container rows-repeat columns-repeat align-items-stretch"></div>
+
+
     </div>
     
 </body>
